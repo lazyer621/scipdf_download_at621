@@ -233,7 +233,8 @@ WeChat_ID: Civil-IT_a621
 如果您觉得这个项目有帮助，请考虑：
 - 给它一个 **star** ⭐
 - 或请我喝杯咖啡
-<img width="372" height="508" alt="付费支持" src="https://github.com/user-attachments/assets/50369da2-0724-4da1-9181-43ac38e0574e" />
+<img width="372" height="508" alt="paid" src="https://github.com/user-attachments/assets/bac2b3df-8430-4ea8-9192-b6b6773706e4" />
+
 <br>感谢您的支持，祝您生活愉快！
 
 
