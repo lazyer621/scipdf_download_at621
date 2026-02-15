@@ -232,7 +232,7 @@ A: 使用远程调试端口启动Edge浏览器，然后在脚本中选择连接�
 
 如果您觉得这个项目有帮助，请考虑：
 - 给它一个 **star** ⭐
-- 或请我喝杯咖啡
+- 赞赏一杯咖啡
 <img width="372" height="508" alt="paid" src="https://github.com/user-attachments/assets/bac2b3df-8430-4ea8-9192-b6b6773706e4" />
 
 <br>感谢您的支持，祝您生活愉快！
