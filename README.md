@@ -3,7 +3,7 @@
 
 ## 项目简介
 
-本项目是一个完整的SCI学术文献自动化检索(已开源/已开放)文献pdf下载链接与下载工具集，支持从DOI列表批量获取文献PDF下载链接，并自动下载PDF文件。工具集包含多个Python脚本，实现了从DOI提取、链接获取、批量下载到失败重试的完整流程。
+本项目是一个完整的SCI学术文献自动化检索(已开源/已开放文献pdf的下载url)与下载工具集，支持从DOI列表批量获取文献PDF下载链接，并自动下载PDF文件。工具集包含多个Python脚本，实现了从DOI提取、链接获取、批量下载到失败重试的完整流程。
 
 ## 功能特点
 
@@ -29,9 +29,9 @@ findlinks-download/
 ├── step2_scipdf_findlinks_release.py # 步骤2: PDF链接获取工具
 ├── step2_batch_pdf_links.txt                # 步骤2生成的文件: 批量获取的PDF下载链接
 ├── step3_read_txt_to_download.py    # 步骤3: 批量下载PDF文件
-├── step3_pdfs_downloaded/                  # 步骤3生成的文件: 下载的PDF文件目录
+├── step3_pdfs_downloaded/                  # 步骤3生成的文件夹: 下载的PDF文件目录
 ├── step4_read_log_retry_download.py # 步骤4: 失败重试下载
-├── step4_retry_downloads_from_failed/      # 步骤4生成的文件: 重试下载的PDF目录
+├── step4_retry_downloads_from_failed/      # 步骤4生成的文件夹: 重试下载的PDF目录
 ├── step4_retry_failed.txt                  # 步骤4生成的文件: 重试失败的记录
 ├── step4_retry_log_failed.txt              # 步骤4生成的文件: 重试失败的日志
 └── step5_add_num_urls.py            # 步骤5: 处理失败URL的工具
