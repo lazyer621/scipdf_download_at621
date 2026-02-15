@@ -1,8 +1,9 @@
+# scipdf_download_@621
 # SCI文献爬取与下载工具
 
 ## 项目简介
 
-本项目是一个完整的SCI学术文献自动化爬取与下载工具集，支持从DOI列表批量获取文献PDF下载链接，并自动下载PDF文件。工具集包含多个Python脚本，实现了从DOI提取、链接获取、批量下载到失败重试的完整流程。
+本项目是一个完整的SCI学术文献自动化检索(已开源/已开放)文献pdf下载链接与下载工具集，支持从DOI列表批量获取文献PDF下载链接，并自动下载PDF文件。工具集包含多个Python脚本，实现了从DOI提取、链接获取、批量下载到失败重试的完整流程。
 
 ## 功能特点
 
@@ -20,19 +21,19 @@
 findlinks-download/
 ├── new.enl                          # EndNote文献库文件
 ├── new.txt                          # 纯文本格式的文献列表
-├── step1_all_list_doi.txt           # 步骤1: 完整的DOI列表（示例）
-├── step1_all_list_dois.txt          # 步骤1: 提取的DOI列表
-├── step1_new_enl_extracted_dois.txt # 步骤1: 从.enl文件提取的DOI
-├── step1_new_txt_extracted_dois.txt # 步骤1: 从.txt文件提取的DOI
 ├── step1_ris_extract_doi.ipynb      # 步骤1: 从RIS格式提取DOI的Jupyter Notebook
-├── step2_batch_pdf_links.txt        # 步骤2: 批量获取的PDF下载链接
+├── step1_new_enl_extracted_dois.txt        # 步骤1生成的文件: 从.enl文件提取的DOI
+├── step1_new_txt_extracted_dois.txt        # 步骤1生成的文件: 从.txt文件提取的DOI
+├── step1_all_list_dois.txt                 # 步骤1生成的文件: 提取的DOI列表
+├── step1_all_list_doi.txt                  # 步骤1生成的文件: 完整的DOI列表（去重）
 ├── step2_scipdf_findlinks_release.py # 步骤2: PDF链接获取工具
-├── step3_pdfs_downloaded/           # 步骤3: 下载的PDF文件目录
+├── step2_batch_pdf_links.txt                # 步骤2生成的文件: 批量获取的PDF下载链接
 ├── step3_read_txt_to_download.py    # 步骤3: 批量下载PDF文件
+├── step3_pdfs_downloaded/                  # 步骤3生成的文件: 下载的PDF文件目录
 ├── step4_read_log_retry_download.py # 步骤4: 失败重试下载
-├── step4_retry_downloads_from_failed/ # 步骤4: 重试下载的PDF目录
-├── step4_retry_failed.txt           # 步骤4: 重试失败的记录
-├── step4_retry_log_failed.txt       # 步骤4: 重试失败的日志
+├── step4_retry_downloads_from_failed/      # 步骤4生成的文件: 重试下载的PDF目录
+├── step4_retry_failed.txt                  # 步骤4生成的文件: 重试失败的记录
+├── step4_retry_log_failed.txt              # 步骤4生成的文件: 重试失败的日志
 └── step5_add_num_urls.py            # 步骤5: 处理失败URL的工具
 ```
 
@@ -48,7 +49,7 @@ findlinks-download/
 - 纯文本文件（每行一个DOI或DOI链接）
 
 **输出文件：**
-- `step1_all_list_dois.txt`: 包含所有提取的DOI，每行一个
+- `step1_all_list_doi.txt`: 包含所有提取的DOI(去重后)，每行一个
 
 **使用方法：**
 1. 如果使用Jupyter Notebook提取DOI，运行 `step1_ris_extract_doi.ipynb`
@@ -60,7 +61,7 @@ findlinks-download/
 
 **使用方法：**
 ```bash
-python step2_scipdf_findlinks_release.py step1_all_list_dois.txt step2_batch_pdf_links.txt
+python step2_scipdf_findlinks_release.py step1_all_list_doi.txt step2_batch_pdf_links.txt
 ```
 
 **参数说明：**
@@ -69,9 +70,7 @@ python step2_scipdf_findlinks_release.py step1_all_list_dois.txt step2_batch_pdf
 
 **功能特点：**
 - 支持多线程并发请求，提高效率
-- 自动轮换User-Agent，防止封禁
-- 支持多个数据源：CrossRef、出版商官网、Sci-Hub等
-- 智能延迟请求，避免触发反爬机制
+- 智能延迟请求
 - 输出详细的文献信息和下载链接
 
 **输出格式：**
@@ -162,7 +161,7 @@ python step5_add_num_urls.py
 ## 环境要求
 
 ### Python版本
-- Python 3.7+
+- Python 3.10+
 
 ### 依赖库
 ```
@@ -187,22 +186,17 @@ pip install requests beautifulsoup4 selenium webdriver-manager psutil
    - 本工具仅供学术研究使用，请遵守相关版权和使用条款
    - 下载的文献仅限个人学习和研究使用
 
-2. **反爬机制**
-   - 工具已内置多种反爬措施（User-Agent轮换、请求延迟等）
-   - 建议适当控制并发数和请求频率
-   - 如遇到频繁封禁，可考虑使用代理IP
-
-3. **浏览器模式**
+2. **浏览器模式**
    - Selenium模式需要安装Edge浏览器
    - 确保EdgeDriver版本与Edge浏览器版本匹配
    - 建议使用webdriver-manager自动管理EdgeDriver
 
-4. **失败重试**
+3. **失败重试**
    - 下载失败是正常现象，特别是对于需要登录的网站
    - 建议多次运行失败重试脚本
    - 对于持续失败的下载，可考虑手动下载
 
-5. **存储空间**
+4. **存储空间**
    - 批量下载可能需要大量存储空间
    - 建议提前检查磁盘空间
 
@@ -223,19 +217,24 @@ A: 使用远程调试端口启动Edge浏览器，然后在脚本中选择连接�
 ## 更新日志
 
 - v1.0.0: 初始版本，支持基本的DOI提取、链接获取和PDF下载功能
-- v1.1.0: 添加Selenium浏览器下载模式
-- v1.2.0: 添加失败重试机制
-- v1.3.0: 添加远程调试端口连接功能
-- v1.4.0: 添加智能标签页检测功能
 
 ## 许可证
 
 本项目仅供学术研究使用，请勿用于商业用途。
 
 ## 联系方式
+邮箱：xiaoliuzi216@gmail.com
+WeChat_ID: Civil-IT_a621
 
 如有问题或建议，欢迎提出Issue。
 
-## 致谢
+## ⭐ 支持
 
-感谢所有为本项目提供帮助和贡献的开发者。
+如果您觉得这个项目有帮助，请考虑：
+- 给它一个 **star** ⭐
+- 或请我喝杯咖啡
+<img width="372" height="508" alt="付费支持" src="https://github.com/user-attachments/assets/50369da2-0724-4da1-9181-43ac38e0574e" />
+<br>感谢您的支持，祝您生活愉快！
+
+
+
