@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 下载失败: https://read.dukeupress.edu/demography/article-pdf/56/6/2109/843682/2109boertien.pdf
 下载失败: https://academic.oup.com/gerontologist/article-pdf/57/suppl_1/S50/9515733/gnw174.pdf
 下载失败: https://academic.oup.com/jsm/article-pdf/7/6/2166/47357749/jsm_7_6_2166.pdf
 下载失败: http://link.springer.com/content/pdf/10.1007/s10902-016-9797-y.pdf
+=======
+下载失败: https://read.dukeupress.edu/demography/article-pdf/56/6/2109/843682/2109boertien.pdf
+下载失败: https://academic.oup.com/gerontologist/article-pdf/57/suppl_1/S50/9515733/gnw174.pdf
+下载失败: https://academic.oup.com/jsm/article-pdf/7/6/2166/47357749/jsm_7_6_2166.pdf
+下载失败: http://link.springer.com/content/pdf/10.1007/s10902-016-9797-y.pdf
+>>>>>>> 34a7861bfc90a87a77c760888c4582ab3bf72350

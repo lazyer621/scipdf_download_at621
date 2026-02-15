@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2026-02-14 11:15:03] 开始重试下载,共 5 个链接
 [2026-02-14 11:15:54] 开始处理第 1 批
 [2026-02-14 11:17:18] 失败: https://read.dukeupress.edu/demography/article-pdf/56/6/2109/843682/2109boertien.pdf | 原因: 下载超时或未检测到文件
@@ -6,3 +7,13 @@
 [2026-02-14 11:21:06] 失败: https://academic.oup.com/jsm/article-pdf/7/6/2166/47357749/jsm_7_6_2166.pdf | 原因: 下载超时或未检测到文件
 [2026-02-14 11:22:39] 失败: http://link.springer.com/content/pdf/10.1007/s10902-016-9797-y.pdf | 原因: 下载超时或未检测到文件
 [2026-02-14 11:22:41] 完成! 成功: 1, 失败: 4, 总计: 5
+=======
+[2026-02-14 11:15:03] 开始重试下载,共 5 个链接
+[2026-02-14 11:15:54] 开始处理第 1 批
+[2026-02-14 11:17:18] 失败: https://read.dukeupress.edu/demography/article-pdf/56/6/2109/843682/2109boertien.pdf | 原因: 下载超时或未检测到文件
+[2026-02-14 11:19:19] 失败: https://academic.oup.com/gerontologist/article-pdf/57/suppl_1/S50/9515733/gnw174.pdf | 原因: 下载超时或未检测到文件
+[2026-02-14 11:19:29] 成功: https://pmc.ncbi.nlm.nih.gov/articles/PMC11488777/pdf/JEHP-13-325.pdf | 文件: JEHP-13-325.pdf
+[2026-02-14 11:21:06] 失败: https://academic.oup.com/jsm/article-pdf/7/6/2166/47357749/jsm_7_6_2166.pdf | 原因: 下载超时或未检测到文件
+[2026-02-14 11:22:39] 失败: http://link.springer.com/content/pdf/10.1007/s10902-016-9797-y.pdf | 原因: 下载超时或未检测到文件
+[2026-02-14 11:22:41] 完成! 成功: 1, 失败: 4, 总计: 5
+>>>>>>> 34a7861bfc90a87a77c760888c4582ab3bf72350
