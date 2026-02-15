@@ -1,0 +1,266 @@
+================================================================================
+批量 PDF 下载链接获取结果
+获取时间 : 2026-02-14 11:02:30
+DOI 总数 : 20
+并发线程 : 5
+================================================================================
+
+DOI: 10.1007/s10902-016-9797-y
+标题: Subjective Well-Being During the 2008 Economic Crisis: Identification of Mediating and Moderating Factors
+期刊: Journal of Happiness Studies
+年份: 2017
+作者: Gregor Gonza, Anže Burger
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : crossref
+     版本  : publishedVersion
+     链接  : http://link.springer.com/content/pdf/10.1007/s10902-016-9797-y.pdf
+--------------------------------------------------------------------------------
+
+DOI: 10.1016/j.wombi.2021.01.007
+标题: Effects of the COVID-19 pandemic on perinatal mental health in Spain: Positive and negative outcomes
+期刊: Women and Birth
+年份: 2022
+作者: Covadonga Chaves, Carlos Marchena, Beatriz Palacios, Alfonso Salgado, Almudena Duque
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : openaccess
+     版本  : submittedVersion
+     链接  : http://ddfv.ufv.es/bitstream/10641/2958/1/3.-.Effects%20of%20the%20COVID-19%20pandemic%20on%20perinatal%20mental%20health%20in%20Spain%20Positive%20and%20negative%20outcomes.pdf
+     页面URL: https://hdl.handle.net/10641/2958
+--------------------------------------------------------------------------------
+
+DOI: 10.15236/ijcpd.2020.16.1.28
+标题: A Study on the Relevance to the Health-Related Quality of Life in South Korean People: Focusing on the Data from the Fifth Korea National Health and Nutrition Examination Survey
+期刊: International Journal of Clinical Preventive Dentistry
+年份: 2020
+作者: Eun Hee Kim, Jong Ae Chun, Seon Jeong Moon, Kyung Hwan Ka, Hyo Jeong Park
+--------------------------------------------------------------------------------
+未找到 PDF 下载链接
+--------------------------------------------------------------------------------
+
+DOI: 10.3109/00016357.2011.568965
+标题: Social inequality in oral health-related quality-of-life, OHRQoL, at early older age: Evidence from a prospective cohort study
+期刊: Acta Odontologica Scandinavica
+年份: 2011
+作者: Anne Nordrehaug Åstrøm, Gunnar Ekback, Sven Ordell, Lennart Unell
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.red/download/2024/2764/883dd14847accf0d94b72681cc042dd6/10.3109@00016357.2011.568965.pdf
+     页面URL: https://sci-hub.red/10.3109/00016357.2011.568965
+--------------------------------------------------------------------------------
+
+DOI: 10.1016/j.archger.2018.04.009
+标题: Aging in place and quality of life among the elderly in Europe: A moderated mediation model
+期刊: Archives of Gerontology and Geriatrics
+年份: 2018
+作者: Adi Vitman Schorr, Rabia Khalaila
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.red/download/twin/6856/9c4ab0ecaea872ceba0688e1a5b5ed1f/vitmanschorr2018.pdf
+     页面URL: https://sci-hub.red/10.1016/j.archger.2018.04.009
+--------------------------------------------------------------------------------
+
+DOI: 10.4274/tftr.57060
+标题: 未知标题
+期刊: 
+年份: 
+--------------------------------------------------------------------------------
+未找到 PDF 下载链接
+--------------------------------------------------------------------------------
+
+DOI: 10.4103/jehp.jehp_209_24
+标题: Psychological distress and attitudes toward seeking professional psychological help among Omani nurses: Strategies for nursing practice
+期刊: Journal of Education and Health Promotion
+年份: 2024
+作者: Mohammed Ghalib Qutishat
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : unpaywall
+     版本  : submittedVersion
+     链接  : https://pmc.ncbi.nlm.nih.gov/articles/PMC11488777/pdf/JEHP-13-325.pdf
+     页面URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11488777/pdf/JEHP-13-325.pdf
+--------------------------------------------------------------------------------
+
+DOI: 10.1016/j.apmr.2019.08.283
+标题: Modifiable Mediators of the Relationship Between Veterans’ Participation and Wellbeing
+期刊: Archives of Physical Medicine and Rehabilitation
+年份: 2019
+作者: Adam Kinney, Aaron Eakman, James Graham
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.box/download/2024/7788/731f7caf90be467a4bf180c80fb13252/kinney2019.pdf
+     页面URL: https://sci-hub.box/10.1016/j.apmr.2019.08.283
+--------------------------------------------------------------------------------
+
+DOI: 10.1007/BF00896424
+标题: The helping community: Characteristics of natural helpers
+期刊: American Journal of Community Psychology
+年份: 1982
+作者: Theodore R. Vallance, Anthony R. D'Augelli
+--------------------------------------------------------------------------------
+找到 2 个 PDF 下载链接:
+  1. 来源  : crossref
+     版本  : publishedVersion
+     链接  : http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1007%2FBF00896424
+  2. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.red/download/2024/621/efbfe1182dad9d7377189af370ef6b97/vallance1982.pdf
+     页面URL: https://sci-hub.red/10.1007/BF00896424
+--------------------------------------------------------------------------------
+
+DOI: 10.1093/geront/gnw174
+标题: Who Says I Do: The Changing Context of Marriage and Health and Quality of Life for LGBT Older Adults
+期刊: The Gerontologist
+年份: 2017
+作者: Jayn Goldsen, Amanda E. B. Bryan, Hyun-Jun Kim, Anna Muraco, Sarah Jen, Karen I. Fredriksen-Goldsen
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : openaccess
+     版本  : publishedVersion
+     链接  : https://academic.oup.com/gerontologist/article-pdf/57/suppl_1/S50/9515733/gnw174.pdf
+     页面URL: https://doi.org/10.1093/geront/gnw174
+--------------------------------------------------------------------------------
+
+DOI: 10.53350/pjmhs2115123721
+标题: Perception of Happiness among Health Care Providers in United Arab Emirates: a Cross Sectional Study
+期刊: Pakistan Journal of Medical and Health Sciences
+年份: 2021
+作者: Sumayya Obaid Saeed Almheiri, Victoria Funmilayo Hanson, Eman Abdelaziz Ahmed Rashad Dabou
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : openaccess
+     版本  : publishedVersion
+     链接  : https://pjmhsonline.com/2021/dec/3721.pdf
+     页面URL: https://doi.org/10.53350/pjmhs2115123721
+--------------------------------------------------------------------------------
+
+DOI: 10.1037//0022-3514.75.3.617
+标题: Immune neglect: A source of durability bias in affective forecasting.
+期刊: Journal of Personality and Social Psychology
+年份: 1998
+作者: Daniel T. Gilbert, Elizabeth C. Pinel, Timothy D. Wilson, Stephen J. Blumberg, Thalia P. Wheatley
+--------------------------------------------------------------------------------
+未找到 PDF 下载链接
+--------------------------------------------------------------------------------
+
+DOI: 10.1016/j.jhealeco.2011.10.002
+标题: Trajectories of health-related quality of life differ by age among adults: Results from an eight-year longitudinal study
+期刊: Journal of Health Economics
+年份: 2012
+作者: Keiko Asakawa, Ambikaipakan Senthilselvan, David Feeny, Jeffrey Johnson, Darryl Rolfson
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.red/download/2024/1676/03c0d3f867afeccca5ebf97ada2ad3d8/asakawa2012.pdf
+     页面URL: https://sci-hub.red/10.1016/j.jhealeco.2011.10.002
+--------------------------------------------------------------------------------
+
+DOI: 10.1017/S1041610215000472
+标题: Examining the 16-year trajectories of mental health and wellbeing through the transition into widowhood
+期刊: International Psychogeriatrics
+年份: 2015
+作者: R.A. Burns, C.J. Browning, H.L. Kendig
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.red/download/moscow/5203/2a2bef6c15da3d7129722e0370667311/burns2015.pdf
+     页面URL: https://sci-hub.red/10.1017/S1041610215000472
+--------------------------------------------------------------------------------
+
+DOI: 10.1521/jscp.23.3.359.35451
+标题: Predictors of Subjective Well-Being in an Eastern Muslim Culture
+期刊: Journal of Social and Clinical Psychology
+年份: 2004
+作者: Kausar Suhail, Haroon Rashid Chaudhry
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : scihub
+     版本  : publishedVersion
+     链接  : https://sci-hub.box/download/2024/6035/e69ebe2e75a80cbef1b42693da0f5d97/suhail2004.pdf
+     页面URL: https://sci-hub.box/10.1521/jscp.23.3.359.35451
+--------------------------------------------------------------------------------
+
+DOI: 10.1037/fam0001166
+标题: Connection at your fingertips: A first look at the Agapé app’s contributions to healthy relationships.
+期刊: Journal of Family Psychology
+年份: 2024
+作者: Ronald D. Rogge, Jenna A. Macri, Khadesha Okwudili
+--------------------------------------------------------------------------------
+未找到 PDF 下载链接
+--------------------------------------------------------------------------------
+
+DOI: 10.1037/emo0000958
+标题: The mixed benefits of a stressor-free life.
+期刊: Emotion
+年份: 2021
+作者: Susan T. Charles, Jacqueline Mogle, Hye Won Chai, David M. Almeida
+--------------------------------------------------------------------------------
+找到 3 个 PDF 下载链接:
+  1. 来源  : semanticscholar
+     版本  : openAccess
+     链接  : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8384975
+     页面URL: https://www.semanticscholar.org/paper/36f2409c0b6d9318b6a86410c4968ea41c35c21d
+  2. 来源  : europepmc
+     版本  : publishedVersion
+     链接  : https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC8384975&blobtype=pdf
+     页面URL: https://europepmc.org/article/PMC/PMC8384975
+  3. 来源  : pmc
+     版本  : publishedVersion
+     链接  : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8384975/pdf/
+     页面URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8384975/
+--------------------------------------------------------------------------------
+
+DOI: 10.4178/epih.e2019047
+标题: Physical activity level in Korean adults: the Korea National Health and Nutrition Examination Survey 2017
+期刊: Epidemiology and Health
+年份: 2019
+作者: Ki-Yong An
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : openaccess
+     版本  : publishedVersion
+     链接  : https://www.e-epih.org/upload/pdf/epih-41-e2019047.pdf
+     页面URL: https://doi.org/10.4178/epih.e2019047
+--------------------------------------------------------------------------------
+
+DOI: 10.1007/s13524-019-00822-1
+标题: Legalizing Same-Sex Marriage Matters for the Subjective Well-being of Individuals in Same-Sex Unions
+期刊: Demography
+年份: 2019
+作者: Diederik Boertien, Daniele Vignoli
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : openaccess
+     版本  : publishedVersion
+     链接  : https://read.dukeupress.edu/demography/article-pdf/56/6/2109/843682/2109boertien.pdf
+     页面URL: https://doi.org/10.1007/s13524-019-00822-1
+--------------------------------------------------------------------------------
+
+DOI: 10.1111/j.1743-6109.2009.01542.x
+标题: Erectile Dysfunction and Correlated Factors in Brazilian Men Aged 18–40 years
+期刊: The Journal of Sexual Medicine
+年份: 2010
+作者: Fernando Gonini Martins, Carmita Helena Najjar Abdo
+--------------------------------------------------------------------------------
+找到 1 个 PDF 下载链接:
+  1. 来源  : crossref
+     版本  : publishedVersion
+     链接  : https://academic.oup.com/jsm/article-pdf/7/6/2166/47357749/jsm_7_6_2166.pdf
+--------------------------------------------------------------------------------
+
+================================================================================
+摘 要
+  DOI 总数          : 20
+  成功获取链接      : 16
+  未找到链接        : 4
+  找到的总链接数    : 19
+================================================================================
