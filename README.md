@@ -224,5 +224,17 @@ A: 使用远程调试端口启动Edge浏览器，然后在脚本中选择连接�
 
 ## 联系方式
 邮箱：xiaoliuzi216@gmail.com
+WeChat_ID: Civil-IT_a621
+
 如有问题或建议，欢迎提出Issue。
+
+## ⭐ 支持
+
+如果您觉得这个项目有帮助，请考虑：
+- 给它一个 **star** ⭐
+- 或请我喝杯咖啡
+<img width="372" height="508" alt="付费支持" src="https://github.com/user-attachments/assets/50369da2-0724-4da1-9181-43ac38e0574e" />
+<br>感谢您的支持，祝您生活愉快！
+
+
 
