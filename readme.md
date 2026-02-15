@@ -1,5 +1,6 @@
 # scipdf_download_@621
-# SCI文献检索开源/开放文献url与下载工具
+
+# SCI文献检索（开源/开放URL）与下载工具
 
 ## 项目简介
 
@@ -44,14 +45,17 @@ findlinks-download/
 从文献管理软件或文本文件中提取DOI，生成DOI列表文件。
 
 **输入文件格式：**
+
 - EndNote .enl文件
 - RIS格式文件
 - 纯文本文件（每行一个DOI或DOI链接）
 
 **输出文件：**
+
 - `step1_all_list_doi.txt`: 包含所有提取的DOI(去重后)，每行一个
 
 **使用方法：**
+
 1. 如果使用Jupyter Notebook提取DOI，运行 `step1_ris_extract_doi.ipynb`
 2. 手动准备DOI列表文件，确保每行一个DOI
 
@@ -60,20 +64,24 @@ findlinks-download/
 使用 `step2_scipdf_findlinks_release.py` 批量获取PDF下载链接。
 
 **使用方法：**
+
 ```bash
 python step2_scipdf_findlinks_release.py step1_all_list_doi.txt step2_batch_pdf_links.txt
 ```
 
 **参数说明：**
+
 - 第1个参数: 包含DOI列表的txt文件路径（每行一个DOI）
 - 第2个参数: 输出文件路径（默认: batch_pdf_links.txt）
 
 **功能特点：**
+
 - 支持多线程并发请求，提高效率
 - 智能延迟请求
 - 输出详细的文献信息和下载链接
 
 **输出格式：**
+
 ```
 ================================================================================
 批量 PDF 下载链接获取结果
@@ -100,11 +108,13 @@ DOI: 10.1007/s10902-016-9797-y
 使用 `step3_read_txt_to_download.py` 批量下载PDF文件。
 
 **使用方法：**
+
 ```bash
 python step3_read_txt_to_download.py
 ```
 
 **功能特点：**
+
 - 支持两种下载模式：
   - requests直接下载（快速，适合开放访问的PDF）
   - Selenium浏览器下载（支持需要登录的网站）
@@ -115,10 +125,12 @@ python step3_read_txt_to_download.py
 
 **下载模式选择：**
 程序运行时会提示选择下载模式：
+
 - 输入 'y' 使用Selenium浏览器模式
 - 输入 'n' 使用requests直接下载模式
 
 **输出目录：**
+
 - `step3_pdfs_downloaded/`: 成功下载的PDF文件
 
 ### 步骤4: 失败重试下载
@@ -126,11 +138,13 @@ python step3_read_txt_to_download.py
 使用 `step4_read_log_retry_download.py` 重试失败的下载。
 
 **使用方法：**
+
 ```bash
 python step4_read_log_retry_download.py
 ```
 
 **功能特点：**
+
 - 自动读取下载日志，识别失败的下载
 - 支持连接到已打开的Edge浏览器（通过远程调试端口）
 - 智能检测Edge浏览器调试端口
@@ -138,6 +152,7 @@ python step4_read_log_retry_download.py
 - 记录重试日志
 
 **输出目录：**
+
 - `step4_retry_downloads_from_failed/`: 重试成功下载的PDF文件
 - `step4_retry_failed.txt`: 重试仍然失败的记录
 - `step4_retry_log_failed.txt`: 重试失败的日志
@@ -147,11 +162,13 @@ python step4_read_log_retry_download.py
 使用 `step5_add_num_urls.py` 处理失败的URL。
 
 **使用方法：**
+
 ```bash
 python step5_add_num_urls.py
 ```
 
 **功能特点：**
+
 - 读取失败URL列表
 - 连接到已打开的Edge浏览器
 - 检测浏览器标签页是否包含PDF
@@ -161,9 +178,11 @@ python step5_add_num_urls.py
 ## 环境要求
 
 ### Python版本
+
 - Python 3.10+
 
 ### 依赖库
+
 ```
 requests
 beautifulsoup4
@@ -173,9 +192,11 @@ psutil
 ```
 
 ### 浏览器要求
+
 - Microsoft Edge浏览器（用于Selenium模式）
 
 ### 安装依赖
+
 ```bash
 pip install requests beautifulsoup4 selenium webdriver-manager psutil
 ```
@@ -183,20 +204,21 @@ pip install requests beautifulsoup4 selenium webdriver-manager psutil
 ## 注意事项
 
 1. **版权和使用条款**
+
    - 本工具仅供学术研究使用，请遵守相关版权和使用条款
    - 下载的文献仅限个人学习和研究使用
-
 2. **浏览器模式**
+
    - Selenium模式需要安装Edge浏览器
    - 确保EdgeDriver版本与Edge浏览器版本匹配
    - 建议使用webdriver-manager自动管理EdgeDriver
-
 3. **失败重试**
+
    - 下载失败是正常现象，特别是对于需要登录的网站
    - 建议多次运行失败重试脚本
    - 对于持续失败的下载，可考虑手动下载
-
 4. **存储空间**
+
    - 批量下载可能需要大量存储空间
    - 建议提前检查磁盘空间
 
@@ -223,6 +245,7 @@ A: 使用远程调试端口启动Edge浏览器，然后在脚本中选择连接�
 本项目仅供学术研究使用，请勿用于商业用途。
 
 ## 联系方式
+
 邮箱：xiaoliuzi216@gmail.com
 WeChat_ID: Civil-IT_a621
 
@@ -231,10 +254,8 @@ WeChat_ID: Civil-IT_a621
 ## ⭐ 支持
 
 如果您觉得这个项目有帮助，请考虑：
+
 - 给它一个 **star** ⭐
 - 或请我喝杯咖啡
-<img width="372" height="508" alt="付费支持" src="https://github.com/user-attachments/assets/50369da2-0724-4da1-9181-43ac38e0574e" />
-<br>感谢您的支持，祝您生活愉快！
-
-
-
+  `<img width="372" height="508" alt="付费支持" src="https://github.com/user-attachments/assets/50369da2-0724-4da1-9181-43ac38e0574e" />`
+  `<br>`感谢您的支持，祝您生活愉快！
